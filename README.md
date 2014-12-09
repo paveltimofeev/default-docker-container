@@ -31,6 +31,11 @@ show container logs by its ID
 ```
 sudo docker logs <container_ID>
 ```
+
+#### How to remove *all* installed containers: 
+```
+sudo docker rm $(docker ps -a | awk '{print $1}')
+```	
 	
 #### Attach persistent/shared directories
   1. Create a mountable data directory `<data-dir>` on the host.
