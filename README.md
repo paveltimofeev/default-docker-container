@@ -7,6 +7,10 @@
 #### First boot / in case of update
 install docker on Ubuntu
 ```
+# latest version:
+curl -sSL https://get.docker.com/ | sh 
+
+# not latest version:
 sudo apt-get update
 sudo apt-get install docker.io
 ```
