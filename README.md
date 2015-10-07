@@ -14,7 +14,7 @@ curl -sSL https://get.docker.com/ | sh
 sudo apt-get update
 sudo apt-get install docker.io
 ```
-Start docker:
+Start docker service (if needed):
 ```
 sudo service docker start
 ```
